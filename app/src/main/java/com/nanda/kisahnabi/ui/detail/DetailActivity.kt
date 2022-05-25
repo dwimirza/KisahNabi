@@ -19,6 +19,8 @@ class DetailActivity : AppCompatActivity() {
             detailNama.text = data?.name
             detailTahun.text = data?.thnKelahiran
             detailTempat.text = data?.tmp
+            detailUsia.text = data?.usia
+            detailDesk.text = data?.description
 
         }
     }
